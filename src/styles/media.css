@@ -1,0 +1,146 @@
+@media (max-width: 1300px) and (min-width: 1024px){
+    body{
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        max-width: 1446px;
+        height: 100%;
+
+        border-radius: 10px;
+    }
+    #cont-primer{
+        height: 30%;
+        padding-left: 70px;
+
+        border-radius: 10px 10px 0  0;
+    }
+    #cont-primer h1{
+        font-size: 30px;
+    }
+    
+    #cont-primer #days{
+        font-size: 21px;
+    }
+    
+    #cont-primer #gain{
+        width: 90%;
+        font-size: 20px;
+    }
+    #cont-secunt{
+        height: 45%;
+        display: flex;
+    }
+    #subscription{
+        width: 50%;
+        padding: 0px 80px 0px 80px;
+        gap: 50px;
+
+        border-radius: 0 0 0 10px;
+    }
+    #subscription h3{
+        font-size: 25px;
+    }
+    #subscription #preco p{
+        font-size: 20px;
+    }
+    #subscription #preco #div-preco h3{
+        font-size: 33px;
+    }
+    #button{
+        font-size: 20px;
+        height: 70px;
+    }
+    #why-us{
+        width: 50%;
+        padding-left: 50px;
+
+        border-radius: 0 0 10px 0;
+    }
+    #why-us h2{
+        font-size: 25px;
+    }
+    #why-us p{
+        font-size: 20px;
+        line-height: 35px;
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 3000px) and (min-width:1300px){
+    body{
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        max-width: 1046px;
+        height: 100%;
+
+        border-radius: 10px;
+    }
+    #cont-primer{
+        height: 30%;
+        padding-left: 70px;
+
+        border-radius: 10px 10px 0  0;
+    }
+    #cont-primer h1{
+        font-size: 30px;
+    }
+    
+    #cont-primer #days{
+        font-size: 21px;
+    }
+    
+    #cont-primer #gain{
+        width: 90%;
+        font-size: 20px;
+    }
+    #cont-secunt{
+        height: 45%;
+        display: flex;
+    }
+    #subscription{
+        width: 50%;
+        padding: 0px 80px 0px 80px;
+        gap: 50px;
+
+        border-radius: 0 0 0 10px;
+    }
+    #subscription h3{
+        font-size: 35px;
+    }
+    #subscription #preco p{
+        font-size: 23px;
+    }
+    #subscription #preco #div-preco h3{
+        font-size: 53px;
+    }
+    #button{
+        font-size: 20px;
+        height: 70px;
+    }
+    #why-us{
+        width: 50%;
+        padding-left: 50px;
+
+        border-radius: 0 0 10px 0;
+    }
+    #why-us h2{
+        font-size: 35px;
+    }
+    #why-us p{
+        font-size: 22px;
+        line-height: 35px;
+        width: 60%;
+    }
+}

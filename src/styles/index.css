@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+    background-color: rgb(230, 239, 245);
+
+    margin-bottom: 50px;
+}
+
+main{
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 50px;
+
+    max-width: 375px;
+
+}
+
+#cont-primer{
+    width: 100%;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: white;
+
+    padding: 30px 20px;
+
+    font-family: 'Karla', sans-serif;
+}
+
+#cont-primer h1{
+    color: #29b3b0;
+    font-weight: 700;
+}
+
+#days{
+    width: 100%;
+
+    color: #bfde33;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#gain{
+    font-weight: 400;
+    line-height: 30px;
+
+    color: rgba(0, 0, 0, 0.507);
+}
+
+#cont-secunt{
+    width: 100%;
+}
+
+#subscription{
+    width: 100%;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 30px 20px;
+
+    background-color: #29b3b0;
+    color: white;
+
+    font-family: 'Karla', sans-serif;
+}
+
+#preco{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#div-preco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#div-preco p{
+    color: rgba(255, 255, 255, 0.644);
+}
+
+#div-preco h3{
+    font-size: 35px;
+}
+
+#button{
+    width: 100%;
+    height: 50px;
+
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    background-color: #bfde33;
+}
+
+#why-us{
+    width: 100%;
+    
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 30px 20px;
+
+    background-color: #4abebd;
+    color: white;
+
+    font-family: 'Karla', sans-serif;
+}
+
+#why-us h2{
+    font-weight: 700;
+}
+
+#why-us p{
+    width: 80%;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.658);
+}
